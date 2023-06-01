@@ -1,0 +1,16 @@
+   55  mkdir actividades
+   56  cd actividades/
+   57  mkdir "Deportes de equipo" "Deportes acuaticos" "Deportes extremos" "Deportes de mesa" "Deportes mentales"
+   58  touch "Deportes de equipo"/Basquet "Deportes mentales"/Ajedrez.txt "Deportes de mesa"/"Ping Pong" 
+   59  ls -R
+   60  rm -r "Deportes extremos"/
+   61  pwd
+   62  git init
+   63  git remote add origin https://github.com/laucris44/ejemploExamen1.git
+   64  git add .
+   65  git commit -m "primer commit"
+   66  git push -u origin master
+   67  history 20
+   68  history 50
+   69  history 35
+   70  history 35 > comandos.txt
